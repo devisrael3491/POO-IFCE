@@ -1,6 +1,6 @@
 class Pessoa
-  def __init__(self, nome : int, idade: int) -> None:
-    self.__nome = nome
+  def __init__(self, nome : str, idade: int) -> None:
+    self.__name = nome
     self.__idade = idade
   def get_name(self) -> str:
     return self.__name
@@ -23,5 +23,5 @@ class Pessoa
     else:
       print(f'A idade deve ser da classe int.')
   def apresentar(self) -> None:
-    print(f'Olá, meu nome é {self.get_name()} e eu tenho {self.get_idade()} anos.)
+    print(f'Olá, meu nome é {self.get_name()} e eu tenho {self.get_idade()} anos.')
     
